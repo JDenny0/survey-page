@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+   
+    
+}
+h1 {
+    margin: 0 0 10% 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  margin-top: 8%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image:  url(http://www.hartman-group.com/img/hartbeat/shoppers-silhouette-600.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+  
+
+.bkg-pic {
+    background-image: repeating-linear-gradient(
+        180deg,
+        rgba(102, 167, 187, 0.5),
+        rgba(102, 167, 187, 0.1),
+        rgba(252, 252, 252, 0),
+        rgba(102, 167, 187, 0.1),
+        rgba(102, 167, 187, 0.5));
+    width: 100%;
+    height: 100%;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+#box-element {
+    background-image: repeating-linear-gradient(
+        180deg,
+        rgba(31, 82, 106, 0.9),
+        rgba(0, 116, 169, 0.357),
+        rgba(31, 82, 106, 0.9));
+        width: 50%;
+        margin: 0 25% 0 25%;
+
+    }
+#title {
+    padding-top: 30px;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: rgb(1, 77, 100);
+}
+#description {
+    margin: -5% 0 5% 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(1, 77, 100);
+}
+.position {
+    display: block;
+    position: relative;
+    width: 90%;
+    padding: 14px 0 14px 0;
+    border: 1px solid rgba(158, 147, 158, 0.446);
+    border-radius: 6px;
+    font-size: 1.2em; 
+    margin: 1% 10% 4% 0;
+    color: rgba(116, 132, 135, 0.933);
+    text-align: left;
+}
+.radio-btn {
+  display: inline-block; 
+  margin: 0 0.3rem 0 0;
+  padding-right: 4rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  color: rgb(1, 86, 131);
+
+}
+.items { 
+    color: white;
+    margin: -2% 0 -5% 8%;
+    padding: 5% 0 0 0;
+} 
+.textfield {
+    width: 90%;
+    font-size: 1.6rem;
+    margin: 0 10% 0 0;
+    border-radius: 6px;
+    border-color: white;
+    resize: vertical;
+}
+.btn {
+    width: 90%;
+    margin: 0 10% 15% 0;
+    border-radius: 6px;
+    border-color: rgb(38, 165, 80);
+    padding: 12px;
+    font-size: 1.4rem;
+    background-color: rgb(38, 165, 80);
+    cursor: pointer;
+}
+p {
+    padding: 2% 0 2% 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.color1 {
+    color: rgb(1, 86, 131);
+}
+@media(max-width: 700px) {
+    #box-element {
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+}
+@media(max-width: 500px) {
+    #box-element {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+}
